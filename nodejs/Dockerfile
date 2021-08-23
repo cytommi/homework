@@ -1,6 +1,6 @@
 FROM node:12-alpine
 
-RUN mkdir -p /srv/maryland_app/node_modules && chown -R node:node /srv/maryland_app
+RUN mkdir -p /srv/maryland_app && chown -R node:node /srv/maryland_app
 
 WORKDIR /srv/maryland_app
 

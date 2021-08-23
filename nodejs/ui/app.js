@@ -11,10 +11,6 @@
       return fetch("/map-data");
     }
 
-    leafletData.getMap().then(function (map) {
-      L.GeoIP.centerMapOnPosition(map, 15);
-    });
-
     fetchMapData()
       .then((result) => result.json())
       .then((data) => {

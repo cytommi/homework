@@ -69,7 +69,6 @@ async function getCoordinatesOf(paymentData) {
       console.warn(
         `Received multiple coordinates for vendor_zip: ${vendor_zip}`
       );
-      continue;
     }
 
     result.push({
